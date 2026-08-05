@@ -142,13 +142,13 @@
   /* ---------- envelope intro ---------- */
   .envelope-overlay{
     position:fixed; inset:0; z-index:2000; display:flex; align-items:center; justify-content:center;
-    background:radial-gradient(circle at 50% 30%, var(--ink) 0%, var(--ink) 60%, var(--pastel-ink) 100%);
+    background:radial-gradient(circle at 50% 30%, var(--sage) 0%, var(--sage) 60%, var(--sage-dark) 100%);
     cursor:pointer; transition:opacity .7s ease, visibility .7s ease;
   }
   .envelope-overlay.opening{ opacity:0; visibility:hidden; pointer-events:none; }
   .envelope-card{
     position:relative; width:340px; max-width:86vw; aspect-ratio:3/4;
-    background:linear-gradient(160deg, var(--ink), var(--pastel-ink));
+    background:linear-gradient(160deg, var(--sage), var(--pastel-ink));
     border-radius:10px; box-shadow:0 25px 60px rgba(0,0,0,0.25);
     display:flex; flex-direction:column; align-items:center; justify-content:center;
     text-align:center; overflow:hidden; padding:30px;
